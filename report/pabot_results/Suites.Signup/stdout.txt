@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Signup :: Test sign up twitter dengang data yg udh terregister         
+==============================================================================
+CD-01 Sign Up Twitter salah                                           | PASS |
+------------------------------------------------------------------------------
+Suites.Signup :: Test sign up twitter dengang data yg udh terregister | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  c:\Users\yozazoy\Documents\FbTest\report\pabot_results\Suites.Signup\output.xml

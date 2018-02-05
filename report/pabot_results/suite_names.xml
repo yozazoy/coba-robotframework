@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180130 17:08:00.923" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\yozazoy\Documents\FbTest\Test\Gantidata.robot" id="s1-s1" name="Gantidata">
+<test id="s1-s1-t1" name="cd-03 ubah profile">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</kw>
+<status status="PASS" endtime="20180130 17:08:02.891" critical="yes" starttime="20180130 17:08:02.891"></status>
+</test>
+<doc>tet ubah data profile</doc>
+<status status="PASS" endtime="20180130 17:08:02.891" starttime="20180130 17:08:01.036"></status>
+</suite>
+<suite source="C:\Users\yozazoy\Documents\FbTest\Test\Signup.robot" id="s1-s2" name="Signup">
+<test id="s1-s2-t1" name="CD-01 Sign Up Twitter salah">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20180130 17:08:02.891" critical="yes" starttime="20180130 17:08:02.891"></status>
+</test>
+<doc>Test sign up twitter dengang data yg udh terregister</doc>
+<status status="PASS" endtime="20180130 17:08:02.891" starttime="20180130 17:08:02.891"></status>
+</suite>
+<suite source="C:\Users\yozazoy\Documents\FbTest\Test\Signupberhasil.robot" id="s1-s3" name="Signupberhasil">
+<test id="s1-s3-t1" name="cd-02 sign up twitter berhasil">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.907" starttime="20180130 17:08:02.907"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="NOT_RUN" endtime="20180130 17:08:02.907" starttime="20180130 17:08:02.907"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20180130 17:08:02.907" critical="yes" starttime="20180130 17:08:02.907"></status>
+</test>
+<doc>Test sign up twitter data baru</doc>
+<status status="PASS" endtime="20180130 17:08:02.907" starttime="20180130 17:08:02.891"></status>
+</suite>
+<status status="PASS" endtime="20180130 17:08:02.907" starttime="20180130 17:08:00.923"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="3">Suites</stat>
+<stat fail="0" id="s1-s1" name="Gantidata" pass="1">Suites.Gantidata</stat>
+<stat fail="0" id="s1-s2" name="Signup" pass="1">Suites.Signup</stat>
+<stat fail="0" id="s1-s3" name="Signupberhasil" pass="1">Suites.Signupberhasil</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180130 17:08:00.845" level="ERROR">Error in file 'C:\Users\yozazoy\Documents\FbTest\Test\Gantidata.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180130 17:08:00.845" level="ERROR">Error in file 'C:\Users\yozazoy\Documents\FbTest\Test\Signup.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180130 17:08:00.845" level="ERROR">Error in file 'C:\Users\yozazoy\Documents\FbTest\Test\Signupberhasil.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180130 17:08:02.875" level="ERROR">Error in file 'C:\Users\yozazoy\Documents\FbTest\Keyword\Commonresources.robot': Non-existing setting ''.</msg>
+</errors>
+</robot>

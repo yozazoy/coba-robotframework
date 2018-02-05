@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Gantidata :: tet ubah data profile                                     
+==============================================================================
+cd-03 ubah profile                                                    | FAIL |
+Element with locator 'xpath=//button/span[text()='Edit profile']' not found.
+------------------------------------------------------------------------------
+Suites.Gantidata :: tet ubah data profile                             | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  c:\Users\yozazoy\Documents\FbTest\report\pabot_results\Suites.Gantidata\output.xml

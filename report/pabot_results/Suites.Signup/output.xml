@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180130 17:08:03.340" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite id="s1" name="Suites">
+<suite source="C:\Users\yozazoy\Documents\FbTest\Test\Signup.robot" id="s1-s1" name="Signup">
+<test id="s1-s1-t1" name="CD-01 Sign Up Twitter salah">
+<kw name="Open twitter" library="Commonresources">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${U_URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180130 17:08:03.498" level="INFO">Opening browser 'ff' to base url 'https://twitter.com/signup'.</msg>
+<status status="PASS" endtime="20180130 17:09:03.705" starttime="20180130 17:08:03.498"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180130 17:09:07.237" starttime="20180130 17:09:03.705"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Advanced options</arg>
+</arguments>
+<msg timestamp="20180130 17:09:08.830" level="INFO">Current page contains text 'Advanced options'.</msg>
+<status status="PASS" endtime="20180130 17:09:08.830" starttime="20180130 17:09:07.237"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20180130 17:09:08.830" starttime="20180130 17:09:08.830"></status>
+</kw>
+<status status="PASS" endtime="20180130 17:09:08.830" starttime="20180130 17:08:03.498"></status>
+</kw>
+<kw name="Input data pribadi" library="Commonresources">
+<arguments>
+<arg>${s_nama}</arg>
+<arg>${S_EMAIL}</arg>
+<arg>${S_PASS}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=${NAMA_ID}</arg>
+<arg>${fullname}</arg>
+</arguments>
+<msg timestamp="20180130 17:09:08.830" level="INFO">Typing text 'coba' into text field 'id=full-name'.</msg>
+<status status="PASS" endtime="20180130 17:09:11.284" starttime="20180130 17:09:08.830"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=${EMAIL_ID}</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20180130 17:09:11.284" level="INFO">Typing text 'yozazoy12@gmail.com' into text field 'id=email'.</msg>
+<status status="PASS" endtime="20180130 17:09:11.545" starttime="20180130 17:09:11.284"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=${PASS_ID}</arg>
+<arg>${pass}</arg>
+</arguments>
+<msg timestamp="20180130 17:09:11.545" level="INFO">Typing text 'gembuloke12' into text field 'id=password'.</msg>
+<status status="PASS" endtime="20180130 17:09:11.592" starttime="20180130 17:09:11.545"></status>
+</kw>
+<status status="PASS" endtime="20180130 17:09:11.592" starttime="20180130 17:09:08.830"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>This email is already registered</arg>
+</arguments>
+<msg timestamp="20180130 17:09:11.924" level="INFO">Current page contains text 'This email is already registered'.</msg>
+<status status="PASS" endtime="20180130 17:09:11.924" starttime="20180130 17:09:11.608"></status>
+</kw>
+<kw name="klik sign up" library="Commonresources">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>class=doit</arg>
+</arguments>
+<msg timestamp="20180130 17:09:11.924" level="INFO">Clicking element 'class=doit'.</msg>
+<status status="PASS" endtime="20180130 17:09:19.420" starttime="20180130 17:09:11.924"></status>
+</kw>
+<status status="PASS" endtime="20180130 17:09:19.420" starttime="20180130 17:09:11.924"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180130 17:09:20.576" starttime="20180130 17:09:19.420"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20180130 17:09:20.576" critical="yes" starttime="20180130 17:08:03.498"></status>
+</test>
+<doc>Test sign up twitter dengang data yg udh terregister</doc>
+<status status="PASS" endtime="20180130 17:09:20.983" starttime="20180130 17:08:03.371"></status>
+</suite>
+<status status="PASS" endtime="20180130 17:09:20.989" starttime="20180130 17:08:03.340"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Signup" pass="1">Suites.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
